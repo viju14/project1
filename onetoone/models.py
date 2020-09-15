@@ -11,7 +11,7 @@ class Employee(models.Model):
 
 
     class Meta:
-        db_table='Employee'
+        db_table='Employee1'
 #
 class Address(models.Model):
     city=models.CharField(max_length=20)
@@ -20,7 +20,7 @@ class Address(models.Model):
     pincode=models.IntegerField()
     emp=models.ManyToManyField(Employee,unique=False,related_name='adr',null=True)
     class Meta:
-        db_table='Address'
+        db_table='Address1'
 
         #Address(city='pune'
 
