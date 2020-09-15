@@ -29,5 +29,5 @@ class Address(models.Model):
         #Address(city='pune')
 
 
-
+print("statement by dev2) 
 
