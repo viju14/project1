@@ -12,7 +12,11 @@ class Employee(models.Model):
 
     class Meta:
         db_table='Employee1'
-#
+
+
+print('bdhdjdjj')
+
+
 class Address(models.Model):
     city=models.CharField(max_length=20)
     state=models.CharField(max_length=20)
@@ -22,7 +26,8 @@ class Address(models.Model):
     class Meta:
         db_table='Address1'
 
-        #Address(city='pune'
+        #Address(city='pune')
+
 
 
 
