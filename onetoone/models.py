@@ -30,4 +30,7 @@ class Address(models.Model):
 
 
 print("statement by dev2) 
+print("statement by master1)       
+print("statement by master2) 
+      
 
